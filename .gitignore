@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ffmpeg core copied by scripts/copy-ffmpeg.mjs
+/public/ffmpeg/
+/public/ffmpeg-mt/
+
+# native ffmpeg binaries (local only, >100MB, not used by the site)
+/ffmpeg/
+*.exe
